@@ -1,15 +1,25 @@
 html {
-  font-family: "Noto Sans", "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .btn {
+  background-color: #fff;
+  color: #005e76;
+  border-color: #8bc9d9;
+}
 
+.btn a:hover {
+  background-color: #0084a6;
+  border-color: #005e76;
+}
+
+.nav {
+  color: #0084a6;
+}
+.nav a:hover {
+  color: #005e76;
 }
 
 .btn-ghost {
-
-}
-
-.skip-links {
-
 }
