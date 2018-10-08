@@ -13,11 +13,19 @@
 " rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+  </ul>
+
   <header role="banner">
     <section class="grid">
-      <h1>Rock Gardens</h1> 枯山水
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <h1>Rock Gardens</h1> 枯山水
+        <img src="images/banner.svg" alt="banner">
+      </div>
     </section>
-    <nav>
+    <nav role="navigation" id="nav">
       <ul>
         <li>
           <a href="#">Viewing</a>
@@ -32,7 +40,7 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <section class="grid">
       <div class="unit xs-1 s-1 m-1 l-1">
         自然の親密な本質を模倣し、人生の真の意味を発見する。
