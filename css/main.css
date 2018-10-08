@@ -20,7 +20,8 @@ html {
 }
 
 .nav:hover {
-  color: #005e76;
+  background-color: #005e76;
+  border-color: #000;
 }
 
 .btn-ghost {
