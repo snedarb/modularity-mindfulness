@@ -1,6 +1,7 @@
 html {
   font-family: "Noto Sans", sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
 }
 
 .btn {
@@ -9,7 +10,7 @@ html {
   border-color: #8bc9d9;
 }
 
-.btn a:hover {
+.btn:hover {
   background-color: #0084a6;
   border-color: #005e76;
 }
@@ -17,9 +18,18 @@ html {
 .nav {
   color: #0084a6;
 }
-.nav a:hover {
+
+.nav:hover {
   color: #005e76;
 }
 
 .btn-ghost {
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.footer {
+  color: #e2e2e2;
 }
