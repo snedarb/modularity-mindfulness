@@ -10,25 +10,21 @@ html {
   border-color: #8bc9d9;
 }
 
+.btn-ghost {
+
+}
+
 .btn:hover {
   background-color: #0084a6;
   border-color: #005e76;
 }
 
-.nav {
-  color: #0084a6;
+a {
+  color: #8bc9d9;
 }
 
-.nav:hover {
-  background-color: #005e76;
-  border-color: #000;
-}
-
-.btn-ghost {
-}
-
-.skip-links a:focus {
-  top: 0;
+a:hover {
+  color: #005e76;
 }
 
 .footer {
